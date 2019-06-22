@@ -16,10 +16,10 @@ the project is set up on USART3, this SDK does not have an RS232 transceiver or 
 
 Note: The STM32IDE does not correctly add all the required paths, for this project I had to manually add these paths in the C/C++ Paths and symbols of the Project settings, I decided to use the paths to the project files and not the STM32 Install location in order to make this porject more portable:
 
-*C:\Users\Dev\STM32CubeIDE\workspace_1.0.0\AI_STM32F4DISCO\Drivers\CMSIS\DSP\Include*
-*C:\Users\Dev\STM32CubeIDE\workspace_1.0.0\AI_STM32F4DISCO\Middlewares\ST\AI\AI\data*
-*C:\Users\Dev\STM32CubeIDE\workspace_1.0.0\AI_STM32F4DISCO\Middlewares\ST\AI\AI\include*
-*C:\Users\Dev\STM32CubeIDE\workspace_1.0.0\AI_STM32F4DISCO\Middlewares\ST\Application\Validation\Inc*
+* C:\Users\Dev\STM32CubeIDE\workspace_1.0.0\AI_STM32F4DISCO\Drivers\CMSIS\DSP\Include
+* C:\Users\Dev\STM32CubeIDE\workspace_1.0.0\AI_STM32F4DISCO\Middlewares\ST\AI\AI\data
+* C:\Users\Dev\STM32CubeIDE\workspace_1.0.0\AI_STM32F4DISCO\Middlewares\ST\AI\AI\include
+* C:\Users\Dev\STM32CubeIDE\workspace_1.0.0\AI_STM32F4DISCO\Middlewares\ST\Application\Validation\Inc
 
 For interest , here is the build **sizes** for my version:
 arm-none-eabi-objdump -h -S  AI_STM32F4DISCO.elf  > "AI_STM32F4DISCO.list"
