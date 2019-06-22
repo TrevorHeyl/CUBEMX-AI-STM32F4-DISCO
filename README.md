@@ -14,7 +14,7 @@ the project is set up on USART3, this SDK does not have an RS232 transceiver or 
 * X-CUBE-AI 3.4.0
 * STM32CUBE HAL FW_F4_V1.24.1
 
-Note: The STM32IDE does not correctly add all the required paths, for this project I had to manually add these paths in the C/C++ Paths and symbols of the Project settings, I decided to use the paths to the project files and not the STM32 Install location in order to make this porject more portable:
+Note: The STM32IDE does not correctly add all the required paths, for this project I had to manually add these paths in the C/C++ Paths and symbols of the Project settings, I decided to use the paths to the project files and not the STM32 Install location in order to make this porject more portable, in case you have build problems, just re-point these paths as the IDE does not add these as relative paths:
 
 * C:\Users\...\STM32CubeIDE\workspace_1.0.0\AI_STM32F4DISCO\Drivers\CMSIS\DSP\Include
 * C:\Users\...\STM32CubeIDE\workspace_1.0.0\AI_STM32F4DISCO\Middlewares\ST\AI\AI\data
