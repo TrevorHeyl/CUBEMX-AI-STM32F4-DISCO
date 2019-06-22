@@ -5,7 +5,7 @@ I wanted to see how the performance of a pre=trained HAR-CNN would look on my SM
 This project is based on the STM32 CUBEMX-AI tutorial found  [here](https://www.youtube.com/watch?v=grgNXdkmzzQ&list=PLnMKNibPkDnG9IC5Nl9vJg1CKMAO1kODW&index=7&t=0s)
 
 It uses the pre-trained Keras (TensorFlow) model found [here](https://github.com/Shahnawax/HAR-CNN-Keras/blob/master/model.h5)
-the project is set up on USART3, these SDK doe snot have an ES232 transceiver or Vertual COM port, so I added a USB/TTL dongle for that.
+the project is set up on USART3, this SDK does not have an RS232 transceiver or Virtual COM port, so I added a USB/TTL dongle for that.
 
 **My Dev environment is:**
 * Windows 7
